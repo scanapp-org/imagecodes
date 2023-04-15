@@ -1,12 +1,11 @@
 {
-  "name": "html5-qrcode",
-  "version": "2.3.8",
-  "description": "A cross platform HTML5 QR Code & bar code scanner",
+  "name": "imagecodes",
+  "version": "0.0.1",
+  "description": "A cross platform javascript library for scanning and generating QR codes and barcodes.",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
   "typings": "./esm/index.d.ts",
   "esnext": "./es2015/index.js",
-  "unpkg": "./html5-qrcode.min.js",
   "scripts": {
     "build-windows": "npm run build:es2015 && npm run build:esm && npm run build:esnext && npm run build:cjs && npm run build:umd_windows && npm run build:typing && npm run build:copy_windows",
     "test": "npm run-script test:build && npm run-script test:run",
@@ -35,24 +34,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mebjas/html5-qrcode.git"
+    "url": "git+https://github.com/scanapp-org/imagecodes.git"
   },
   "keywords": [
     "html5",
     "qrcode",
+    "qrcode-scanner",
+    "qrcode-generator",
     "html",
     "camera",
     "scanner",
     "barcode",
+    "barcode-scanner",
     "barcode 1d",
     "barcode 2d"
   ],
   "author": "minhazav@gmail.com",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/mebjas/html5-qrcode/issues"
+    "url": "https://github.com/scanapp-org/imagecodes/issues"
   },
-  "homepage": "https://github.com/mebjas/html5-qrcode#readme",
+  "homepage": "https://github.com/scanapp-org/imagecodes#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.4",
