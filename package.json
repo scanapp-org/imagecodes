@@ -1,6 +1,6 @@
 {
   "name": "imagecodes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A cross platform javascript library for scanning and generating QR codes and barcodes.",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
