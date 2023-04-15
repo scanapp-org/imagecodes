@@ -4,13 +4,14 @@ A cross platform javascript library for scanning and generating QR codes and bar
 
 This library was forked from [mebjas/html5-qrcode](https://github.com/mebjas/html5-qrcode) by the [mebjas](https://github.com/mebjas) to set path for high quality, performant and scalable library for everyone to scan and generate image codes using javascript.
 
-## Very Important
+## Very Important -- latest code and npm packages are in beta
 
-**Do not use this library yet - it's under development!**
+**Do not use this library for production yet**
 > mebjas@: I have forked and published this package to reserve package name. It's not yet ready for consumption as the APIs are prone to breaking changes in future.
 
 You can follow [this discussion](https://github.com/scanapp-org/imagecodes/discussions/1) to track updates on this library. Meanwhile please continue to use the latest published version of [mebjas/html5-qrcode](https://github.com/mebjas/html5-qrcode).
 
+If you are interested, please continue to use this, test and give feedbacks but **do not use this in production**.
 
 ## Key highlights for the planned library
 
